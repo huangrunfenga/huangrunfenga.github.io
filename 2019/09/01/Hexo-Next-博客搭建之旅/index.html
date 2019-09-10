@@ -19,6 +19,7 @@
 
 
 <link rel="stylesheet" href="/lib/font-awesome/css/font-awesome.min.css?v=4.7.0">
+  <link rel="stylesheet" href="//cdn.jsdelivr.net/gh/fancyapps/fancybox@3/dist/jquery.fancybox.min.css">
 
 
 <script id="hexo-configurations">
@@ -32,7 +33,7 @@
     copycode: {"enable":false,"show_result":false,"style":"mac"},
     back2top: {"enable":true,"sidebar":false,"scrollpercent":false},
     bookmark: {"enable":false,"color":"#222","save":"auto"},
-    fancybox: false,
+    fancybox: true,
     mediumzoom: false,
     lazyload: false,
     pangu: false,
@@ -64,7 +65,7 @@
 <meta property="og:description" content="前言 先讲一下自己搭博客的目的： 一个是在平时学习的过程中，会去网上看一些大牛的技术文章，对自己帮助很大，就想能有自己的一个博客，能有属于自己的一片栖息之所，把平时的一些学习笔记或者生活点滴记录下来，让生活有点仪式感；另一个是，这里能逼迫自己去学东西，去记录，去思考，这很重要。  给自己定一个小目标： 坚持每天都要学习一点东西，坚持每天写博客，始终相信滴水能穿石，技术改变人生。   正文一，为什么">
 <meta property="og:locale" content="zh-CN">
 <meta property="og:image" content="https://kelin.netlify.com/2019/09/01/Hexo-Next-博客搭建之旅/images/%E7%9B%AE%E5%BD%95%E7%BB%93%E6%9E%84.png">
-<meta property="og:updated_time" content="2019-09-09T11:47:00.543Z">
+<meta property="og:updated_time" content="2019-09-10T02:28:18.194Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="Hexo+Next 博客搭建之旅">
 <meta name="twitter:description" content="前言 先讲一下自己搭博客的目的： 一个是在平时学习的过程中，会去网上看一些大牛的技术文章，对自己帮助很大，就想能有自己的一个博客，能有属于自己的一片栖息之所，把平时的一些学习笔记或者生活点滴记录下来，让生活有点仪式感；另一个是，这里能逼迫自己去学东西，去记录，去思考，这很重要。  给自己定一个小目标： 坚持每天都要学习一点东西，坚持每天写博客，始终相信滴水能穿石，技术改变人生。   正文一，为什么">
@@ -285,7 +286,7 @@
                   <i class="fa fa-calendar-check-o"></i>
                 </span>
                 <span class="post-meta-item-text">更新于</span>
-                <time title="修改时间：2019-09-09 19:47:00" itemprop="dateModified" datetime="2019-09-09T19:47:00+08:00">2019-09-09</time>
+                <time title="修改时间：2019-09-10 10:28:18" itemprop="dateModified" datetime="2019-09-10T10:28:18+08:00">2019-09-10</time>
               </span>
             
           
@@ -323,6 +324,7 @@
 </li>
 </ol>
 <h4 id="正文"><a href="#正文" class="headerlink" title="正文"></a>正文</h4><h5 id="一，为什么是Hexo"><a href="#一，为什么是Hexo" class="headerlink" title="一，为什么是Hexo"></a>一，为什么是Hexo</h5><p>​    因为比较容易上手，能很快的搭建起来，就如<a href="https://hexo.io/zh-cn/docs/" target="_blank" rel="noopener">官方文档</a>所说 “Hexo 是一个快速、简洁且高效的博客框架。Hexo 使用 <a href="http://daringfireball.net/projects/markdown/" target="_blank" rel="noopener">Markdown</a>（或其他渲染引擎）解析文章，在几秒内，即可利用靓丽的主题生成静态网页。”在此之前也有想过用vue+node搭建，但是太菜了，尝试用VuePress搭都搞出来很多问题，所以就退而求其次了，先用hexo其他等后面再弄！！！</p>
+<a id="more"></a>
 <h5 id="二，基本操作"><a href="#二，基本操作" class="headerlink" title="二，基本操作"></a>二，基本操作</h5><p>​    其实基本操作的话，官方文档之述备矣，这里就当总结一下吧！</p>
 <ol>
 <li><p><strong>npm+git 安装Hexo</strong></p>
@@ -540,6 +542,8 @@
   <script src="/lib/anime.min.js?v=3.1.0"></script>
   <script src="/lib/velocity/velocity.min.js?v=1.2.1"></script>
   <script src="/lib/velocity/velocity.ui.min.js?v=1.2.1"></script>
+  <script src="//cdn.jsdelivr.net/npm/jquery@3/dist/jquery.min.js"></script>
+  <script src="//cdn.jsdelivr.net/gh/fancyapps/fancybox@3/dist/jquery.fancybox.min.js"></script>
 <script src="/js/utils.js?v=7.3.0"></script><script src="/js/motion.js?v=7.3.0"></script>
 <script src="/js/schemes/pisces.js?v=7.3.0"></script>
 <script src="/js/next-boot.js?v=7.3.0"></script>
