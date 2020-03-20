@@ -56,22 +56,20 @@
   };
 </script>
 
-  <meta name="description" content="前言 先讲一下自己搭博客的目的： 一个是在平时学习的过程中，会去网上看一些大牛的技术文章，对自己帮助很大，就想能有自己的一个博客，能有属于自己的一片栖息之所，把平时的一些学习笔记或者生活点滴记录下来，让生活有点仪式感；另一个是，这里能逼迫自己去学东西，去记录，去思考，这很重要。  给自己定一个小目标： 坚持每天都要学习一点东西，坚持每天写博客，始终相信滴水能穿石，技术改变人生。   正文一，为什么">
-<meta name="keywords" content="Hexo">
+  <meta name="description" content="幂等的：对同一系统，使用同样的条件，一次请求和重复多次的请求对系统的资源影响是一致的 GET：向服务端对指定资源的请求，是幂等的，一般只用于对数据的读取不会影响到数据的状态 POST：向指定资源提交数据，请求服务器进行处理，如：表单数据提交、文件上传等，请求数据会被包含在请求体中。POST方法是非幂等的方法，因为这个请求可能会创建新的资源或/和修改现有资源 HEAD：与GET方法一样，都是向服务">
+<meta name="keywords" content="计网">
 <meta property="og:type" content="article">
-<meta property="og:title" content="Hexo+Next 博客搭建之旅">
-<meta property="og:url" content="https://kelin.netlify.com/2019/09/01/Hexo-Next-博客搭建之旅/index.html">
+<meta property="og:title" content="HTTP方法">
+<meta property="og:url" content="https://kelin.netlify.com/2020/03/20/HTTP方法/index.html">
 <meta property="og:site_name" content="Kelin&#39;s Blog">
-<meta property="og:description" content="前言 先讲一下自己搭博客的目的： 一个是在平时学习的过程中，会去网上看一些大牛的技术文章，对自己帮助很大，就想能有自己的一个博客，能有属于自己的一片栖息之所，把平时的一些学习笔记或者生活点滴记录下来，让生活有点仪式感；另一个是，这里能逼迫自己去学东西，去记录，去思考，这很重要。  给自己定一个小目标： 坚持每天都要学习一点东西，坚持每天写博客，始终相信滴水能穿石，技术改变人生。   正文一，为什么">
+<meta property="og:description" content="幂等的：对同一系统，使用同样的条件，一次请求和重复多次的请求对系统的资源影响是一致的 GET：向服务端对指定资源的请求，是幂等的，一般只用于对数据的读取不会影响到数据的状态 POST：向指定资源提交数据，请求服务器进行处理，如：表单数据提交、文件上传等，请求数据会被包含在请求体中。POST方法是非幂等的方法，因为这个请求可能会创建新的资源或/和修改现有资源 HEAD：与GET方法一样，都是向服务">
 <meta property="og:locale" content="zh-CN">
-<meta property="og:image" content="https://kelin.netlify.com/2019/09/01/Hexo-Next-博客搭建之旅/images/%E7%9B%AE%E5%BD%95%E7%BB%93%E6%9E%84.png">
-<meta property="og:updated_time" content="2019-09-10T02:28:18.194Z">
+<meta property="og:updated_time" content="2020-03-20T08:00:31.663Z">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="Hexo+Next 博客搭建之旅">
-<meta name="twitter:description" content="前言 先讲一下自己搭博客的目的： 一个是在平时学习的过程中，会去网上看一些大牛的技术文章，对自己帮助很大，就想能有自己的一个博客，能有属于自己的一片栖息之所，把平时的一些学习笔记或者生活点滴记录下来，让生活有点仪式感；另一个是，这里能逼迫自己去学东西，去记录，去思考，这很重要。  给自己定一个小目标： 坚持每天都要学习一点东西，坚持每天写博客，始终相信滴水能穿石，技术改变人生。   正文一，为什么">
-<meta name="twitter:image" content="https://kelin.netlify.com/2019/09/01/Hexo-Next-博客搭建之旅/images/%E7%9B%AE%E5%BD%95%E7%BB%93%E6%9E%84.png">
+<meta name="twitter:title" content="HTTP方法">
+<meta name="twitter:description" content="幂等的：对同一系统，使用同样的条件，一次请求和重复多次的请求对系统的资源影响是一致的 GET：向服务端对指定资源的请求，是幂等的，一般只用于对数据的读取不会影响到数据的状态 POST：向指定资源提交数据，请求服务器进行处理，如：表单数据提交、文件上传等，请求数据会被包含在请求体中。POST方法是非幂等的方法，因为这个请求可能会创建新的资源或/和修改现有资源 HEAD：与GET方法一样，都是向服务">
   <link rel="alternate" href="/atom.xml" title="Kelin's Blog" type="application/atom+xml">
-  <link rel="canonical" href="https://kelin.netlify.com/2019/09/01/Hexo-Next-博客搭建之旅/">
+  <link rel="canonical" href="https://kelin.netlify.com/2020/03/20/HTTP方法/">
 
 
 <script id="page-configurations">
@@ -85,7 +83,7 @@
   };
 </script>
 
-  <title>Hexo+Next 博客搭建之旅 | Kelin's Blog</title>
+  <title>HTTP方法 | Kelin's Blog</title>
   <meta name="generator" content="Hexo 3.9.0">
   
 
@@ -247,7 +245,7 @@
   
   
   <div class="post-block post">
-    <link itemprop="mainEntityOfPage" href="https://kelin.netlify.com/2019/09/01/Hexo-Next-博客搭建之旅/">
+    <link itemprop="mainEntityOfPage" href="https://kelin.netlify.com/2020/03/20/HTTP方法/">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
       <meta itemprop="name" content="Kelin">
@@ -259,7 +257,7 @@
       <meta itemprop="name" content="Kelin's Blog">
     </span>
       <header class="post-header">
-        <h1 class="post-title" itemprop="name headline">Hexo+Next 博客搭建之旅
+        <h1 class="post-title" itemprop="name headline">HTTP方法
 
           
         </h1>
@@ -275,19 +273,11 @@
                 
               
 
-              <time title="创建时间：2019-09-01 15:43:04" itemprop="dateCreated datePublished" datetime="2019-09-01T15:43:04+08:00">2019-09-01</time>
+              <time title="创建时间：2020-03-20 15:57:22 / 修改时间：16:00:31" itemprop="dateCreated datePublished" datetime="2020-03-20T15:57:22+08:00">2020-03-20</time>
             </span>
           
             
 
-            
-              <span class="post-meta-item">
-                <span class="post-meta-item-icon">
-                  <i class="fa fa-calendar-check-o"></i>
-                </span>
-                <span class="post-meta-item-text">更新于</span>
-                <time title="修改时间：2019-09-10 10:28:18" itemprop="dateModified" datetime="2019-09-10T10:28:18+08:00">2019-09-10</time>
-              </span>
             
           
             <span class="post-meta-item">
@@ -296,7 +286,7 @@
               </span>
               <span class="post-meta-item-text">分类于</span>
               
-                <span itemprop="about" itemscope itemtype="http://schema.org/Thing"><a href="/categories/Hexo/" itemprop="url" rel="index"><span itemprop="name">Hexo</span></a></span>
+                <span itemprop="about" itemscope itemtype="http://schema.org/Thing"><a href="/categories/计网/" itemprop="url" rel="index"><span itemprop="name">计网</span></a></span>
 
                 
                 
@@ -315,35 +305,24 @@
     <div class="post-body" itemprop="articleBody">
 
       
-        <h4 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h4><ol>
-<li><p>先讲一下自己搭博客的目的：</p>
-<p>一个是在平时学习的过程中，会去网上看一些大牛的技术文章，对自己帮助很大，就想能有自己的一个博客，能有属于自己的一片栖息之所，把平时的一些学习笔记或者生活点滴记录下来，让生活有点仪式感；另一个是，这里能逼迫自己去学东西，去记录，去思考，这很重要。</p>
-</li>
-<li><p>给自己定一个小目标：</p>
-<p>坚持每天都要学习一点东西，坚持每天写博客，始终相信滴水能穿石，技术改变人生。</p>
-</li>
+        <ol>
+<li>幂等的：对同一系统，使用同样的条件，一次请求和重复多次的请求对系统的资源影响是一致的</li>
+<li>GET：向服务端对指定资源的请求，是幂等的，一般只用于对数据的读取不会影响到数据的状态</li>
+<li>POST：向指定资源提交数据，请求服务器进行处理，如：表单数据提交、文件上传等，请求数据会被包含在请求体中。POST方法是非幂等的方法，因为这个请求可能会创建新的资源或/和修改现有资源</li>
+<li>HEAD：与GET方法一样，都是向服务器发出指定资源的请求。但是，服务器在响应HEAD请求时不会回传资源的内容部分，即：响应主体。这样，我们可以不传输全部内容的情况下，就可以获取服务器的响应头信息。HEAD方法常被用于客户端查看服务器的性能</li>
 </ol>
-<h4 id="正文"><a href="#正文" class="headerlink" title="正文"></a>正文</h4><h5 id="一，为什么是Hexo"><a href="#一，为什么是Hexo" class="headerlink" title="一，为什么是Hexo"></a>一，为什么是Hexo</h5><p>​    因为比较容易上手，能很快的搭建起来，就如<a href="https://hexo.io/zh-cn/docs/" target="_blank" rel="noopener">官方文档</a>所说 “Hexo 是一个快速、简洁且高效的博客框架。Hexo 使用 <a href="http://daringfireball.net/projects/markdown/" target="_blank" rel="noopener">Markdown</a>（或其他渲染引擎）解析文章，在几秒内，即可利用靓丽的主题生成静态网页。”在此之前也有想过用vue+node搭建，但是太菜了，尝试用VuePress搭都搞出来很多问题，所以就退而求其次了，先用hexo其他等后面再弄！！！</p>
 <a id="more"></a>
-<h5 id="二，基本操作"><a href="#二，基本操作" class="headerlink" title="二，基本操作"></a>二，基本操作</h5><p>​    其实基本操作的话，官方文档之述备矣，这里就当总结一下吧！</p>
+
 <ol>
-<li><p><strong>npm+git 安装Hexo</strong></p>
-<p>不知道什么是npm ? npm全称叫Node Package Manager，翻译过来就是运行在Node.js上面的包管理器，它是用JavaScript写的，作用就是方便我们下载代码，<a href="https://zhuanlan.zhihu.com/p/24357770" target="_blank" rel="noopener">详情</a>可以看这里。git是什么？<a href="https://www.liaoxuefeng.com/wiki/896043488029600" target="_blank" rel="noopener">看这里</a>！有了这两个工具之后就可以进行如下操作：</p>
-<ul>
-<li><p>安装Hexo</p>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ npm install hexo-cli -g</span><br></pre></td></tr></table></figure>
-</li>
-<li><p>安装 Hexo 完成后执行下列命令，Hexo 将会在指定文件夹中新建所需要的文件。</p>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">$ hexo init &lt;folder&gt;</span><br><span class="line">$ cd &lt;folder&gt;</span><br><span class="line">$ npm install</span><br></pre></td></tr></table></figure>
-</li>
-<li><p>完成后指定文件夹目录如右图：                                                   <img src="./images/%E7%9B%AE%E5%BD%95%E7%BB%93%E6%9E%84.png" alt="目录"></p>
-</li>
-</ul>
-</li>
+<li>PUT：PUT请求会身向指定资源位置上传其最新内容，PUT方法是幂等的方法。通过该方法客户端可以将指定资源的最新数据传送给服务器取代指定的资源的内容</li>
+<li>DELETE：DELETE请求用于请求服务器删除所请求URI（统一资源标识符，Uniform Resource Identifier）所标识的资源。DELETE请求后指定资源会被删除，DELETE方法也是幂等的</li>
+<li>OPTIONS：OPTIONS请求与HEAD类似，一般也是用于客户端查看服务器的性能。 这个方法会请求服务器返回该资源所支持的所有HTTP请求方法，该方法会用’*’来代替资源名称，向服务器发送OPTIONS请求，可以测试服务器功能是否正常。JavaScript的XMLHttpRequest对象进行CORS跨域资源共享时，就是使用OPTIONS方法发送嗅探请求，以判断是否有对指定资源的访问权限</li>
+<li>PATCH：PATCH方法出现的较晚，它在2010年的RFC 5789标准中被定义。PATCH请求与PUT请求类似，同样用于资源的更新。二者有以下两点不同：1.PATCH一般用于资源的部分更新，而PUT一般用于资源的整体更新。2.当资源不存在时，PATCH会创建一个新的资源，而PUT只会对已在资源进行更新</li>
+<li>TRACT：TRACE请求服务器回显其收到的请求信息，该方法主要用于HTTP请求的测试或诊断 </li>
 </ol>
-<ol start="2">
-<li><strong>文档简直不要太详细</strong></li>
-</ol>
+<p><strong>GET和POST的区别</strong></p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br></pre></td><td class="code"><pre><span class="line">（1）从应用场景上来说，GET 请求是一个幂等的请求，一般 Get 请求用于对服务器资源不会产生影响的场景，比如说请求一个网页。而 Post 不是一个幂等的请求，一般用于对服务器资源会产生影响的情景。比如注册用户这一类的操作。</span><br><span class="line">    </span><br><span class="line">（2）因为不同的应用场景，所以浏览器一般会对 Get 请求缓存，但很少对 Post 请求缓存。</span><br><span class="line"></span><br><span class="line">（3）从发送的报文格式来说，Get 请求的报文中实体部分为空，Post 请求的报文中实体部分一般为向服务器发送的数据。</span><br><span class="line"></span><br><span class="line">（4）但是 Get 请求也可以将请求的参数放入 url 中向服务器发送，这样的做法相对于 Post 请求来说，一个方面是不太安全，因为请求的 url 会被保留在历史记录中。并且浏览器由于对 url 有一个长度上的限制，所以会影响 get 请求发送数据时的长度。这个限制是浏览器规定的，并不是 RFC 规定的。还有就是 post 的参数传递支持更多的数据类型。</span><br><span class="line"></span><br><span class="line"></span><br><span class="line"></span><br><span class="line">1. GET请求会被浏览器主动缓存，而POST需要手动设置。</span><br><span class="line">2. GET参数长度，大小限制，不安全，直接暴露在URL上，而POST在body</span><br><span class="line">3. GET产生一个TCP数据包，浏览器会把http header和data一并发送出去，服务器响应200（返回数据）。POST产生两个TCP数据包，浏览器先发送header，服务器响应100 continue，浏览器再发送data，服务器响应200 ok（返回数据）。【不是所有浏览器都发两次，Firefox就只发送一次】</span><br></pre></td></tr></table></figure>
+
 
     </div>
 
@@ -359,7 +338,7 @@
           
           <div class="post-tags">
             
-              <a href="/tags/Hexo/" rel="tag"># Hexo</a>
+              <a href="/tags/计网/" rel="tag"># 计网</a>
             
           </div>
         
@@ -369,14 +348,18 @@
           <div class="post-nav">
             <div class="post-nav-next post-nav-item">
               
+                <a href="/2020/03/20/DNS查询/" rel="next" title="DNS查询">
+                  <i class="fa fa-chevron-left"></i> DNS查询
+                </a>
+              
             </div>
 
             <span class="post-nav-divider"></span>
 
             <div class="post-nav-prev post-nav-item">
               
-                <a href="/2019/09/09/Vue生命周期/" rel="prev" title="Vue生命周期">
-                  Vue生命周期 <i class="fa fa-chevron-right"></i>
+                <a href="/2020/03/20/HTTP状态码/" rel="prev" title="HTTP状态码">
+                  HTTP状态码 <i class="fa fa-chevron-right"></i>
                 </a>
               
             </div>
@@ -426,8 +409,6 @@
 
       <!--noindex-->
       <div class="post-toc-wrap sidebar-panel">
-          <div class="post-toc motion-element"><ol class="nav"><li class="nav-item nav-level-4"><a class="nav-link" href="#前言"><span class="nav-number">1.</span> <span class="nav-text">前言</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#正文"><span class="nav-number">2.</span> <span class="nav-text">正文</span></a><ol class="nav-child"><li class="nav-item nav-level-5"><a class="nav-link" href="#一，为什么是Hexo"><span class="nav-number">2.1.</span> <span class="nav-text">一，为什么是Hexo</span></a></li><li class="nav-item nav-level-5"><a class="nav-link" href="#二，基本操作"><span class="nav-number">2.2.</span> <span class="nav-text">二，基本操作</span></a></li></ol></li></ol></div>
-        
       </div>
       <!--/noindex-->
 

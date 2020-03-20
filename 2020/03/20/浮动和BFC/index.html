@@ -56,22 +56,19 @@
   };
 </script>
 
-  <meta name="description" content="前言 先讲一下自己搭博客的目的： 一个是在平时学习的过程中，会去网上看一些大牛的技术文章，对自己帮助很大，就想能有自己的一个博客，能有属于自己的一片栖息之所，把平时的一些学习笔记或者生活点滴记录下来，让生活有点仪式感；另一个是，这里能逼迫自己去学东西，去记录，去思考，这很重要。  给自己定一个小目标： 坚持每天都要学习一点东西，坚持每天写博客，始终相信滴水能穿石，技术改变人生。   正文一，为什么">
-<meta name="keywords" content="Hexo">
+  <meta name="description" content="浮动和BFC一、定义 BFC(Block formatting context)直译为”块级格式化上下文”。它是一个独立的渲染区域，只有Block-level box参与（在下面有解释）， 它规定了内部的Block-level Box如何布局，并且与这个区域外部毫不相干。 二、触发条件  根元素 float的值不为none overflow的值不为visible display的值为inline-">
 <meta property="og:type" content="article">
-<meta property="og:title" content="Hexo+Next 博客搭建之旅">
-<meta property="og:url" content="https://kelin.netlify.com/2019/09/01/Hexo-Next-博客搭建之旅/index.html">
+<meta property="og:title" content="Kelin&#39;s Blog">
+<meta property="og:url" content="https://kelin.netlify.com/2020/03/20/浮动和BFC/index.html">
 <meta property="og:site_name" content="Kelin&#39;s Blog">
-<meta property="og:description" content="前言 先讲一下自己搭博客的目的： 一个是在平时学习的过程中，会去网上看一些大牛的技术文章，对自己帮助很大，就想能有自己的一个博客，能有属于自己的一片栖息之所，把平时的一些学习笔记或者生活点滴记录下来，让生活有点仪式感；另一个是，这里能逼迫自己去学东西，去记录，去思考，这很重要。  给自己定一个小目标： 坚持每天都要学习一点东西，坚持每天写博客，始终相信滴水能穿石，技术改变人生。   正文一，为什么">
+<meta property="og:description" content="浮动和BFC一、定义 BFC(Block formatting context)直译为”块级格式化上下文”。它是一个独立的渲染区域，只有Block-level box参与（在下面有解释）， 它规定了内部的Block-level Box如何布局，并且与这个区域外部毫不相干。 二、触发条件  根元素 float的值不为none overflow的值不为visible display的值为inline-">
 <meta property="og:locale" content="zh-CN">
-<meta property="og:image" content="https://kelin.netlify.com/2019/09/01/Hexo-Next-博客搭建之旅/images/%E7%9B%AE%E5%BD%95%E7%BB%93%E6%9E%84.png">
-<meta property="og:updated_time" content="2019-09-10T02:28:18.194Z">
+<meta property="og:updated_time" content="2019-12-09T11:48:46.549Z">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="Hexo+Next 博客搭建之旅">
-<meta name="twitter:description" content="前言 先讲一下自己搭博客的目的： 一个是在平时学习的过程中，会去网上看一些大牛的技术文章，对自己帮助很大，就想能有自己的一个博客，能有属于自己的一片栖息之所，把平时的一些学习笔记或者生活点滴记录下来，让生活有点仪式感；另一个是，这里能逼迫自己去学东西，去记录，去思考，这很重要。  给自己定一个小目标： 坚持每天都要学习一点东西，坚持每天写博客，始终相信滴水能穿石，技术改变人生。   正文一，为什么">
-<meta name="twitter:image" content="https://kelin.netlify.com/2019/09/01/Hexo-Next-博客搭建之旅/images/%E7%9B%AE%E5%BD%95%E7%BB%93%E6%9E%84.png">
+<meta name="twitter:title" content="Kelin&#39;s Blog">
+<meta name="twitter:description" content="浮动和BFC一、定义 BFC(Block formatting context)直译为”块级格式化上下文”。它是一个独立的渲染区域，只有Block-level box参与（在下面有解释）， 它规定了内部的Block-level Box如何布局，并且与这个区域外部毫不相干。 二、触发条件  根元素 float的值不为none overflow的值不为visible display的值为inline-">
   <link rel="alternate" href="/atom.xml" title="Kelin's Blog" type="application/atom+xml">
-  <link rel="canonical" href="https://kelin.netlify.com/2019/09/01/Hexo-Next-博客搭建之旅/">
+  <link rel="canonical" href="https://kelin.netlify.com/2020/03/20/浮动和BFC/">
 
 
 <script id="page-configurations">
@@ -85,7 +82,7 @@
   };
 </script>
 
-  <title>Hexo+Next 博客搭建之旅 | Kelin's Blog</title>
+  <title> | Kelin's Blog</title>
   <meta name="generator" content="Hexo 3.9.0">
   
 
@@ -247,7 +244,7 @@
   
   
   <div class="post-block post">
-    <link itemprop="mainEntityOfPage" href="https://kelin.netlify.com/2019/09/01/Hexo-Next-博客搭建之旅/">
+    <link itemprop="mainEntityOfPage" href="https://kelin.netlify.com/2020/03/20/浮动和BFC/">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
       <meta itemprop="name" content="Kelin">
@@ -259,7 +256,7 @@
       <meta itemprop="name" content="Kelin's Blog">
     </span>
       <header class="post-header">
-        <h1 class="post-title" itemprop="name headline">Hexo+Next 博客搭建之旅
+        <h1 class="post-title" itemprop="name headline">
 
           
         </h1>
@@ -275,7 +272,7 @@
                 
               
 
-              <time title="创建时间：2019-09-01 15:43:04" itemprop="dateCreated datePublished" datetime="2019-09-01T15:43:04+08:00">2019-09-01</time>
+              <time title="创建时间：2020-03-20 15:15:38" itemprop="dateCreated datePublished" datetime="2020-03-20T15:15:38+08:00">2020-03-20</time>
             </span>
           
             
@@ -286,22 +283,9 @@
                   <i class="fa fa-calendar-check-o"></i>
                 </span>
                 <span class="post-meta-item-text">更新于</span>
-                <time title="修改时间：2019-09-10 10:28:18" itemprop="dateModified" datetime="2019-09-10T10:28:18+08:00">2019-09-10</time>
+                <time title="修改时间：2019-12-09 19:48:46" itemprop="dateModified" datetime="2019-12-09T19:48:46+08:00">2019-12-09</time>
               </span>
             
-          
-            <span class="post-meta-item">
-              <span class="post-meta-item-icon">
-                <i class="fa fa-folder-o"></i>
-              </span>
-              <span class="post-meta-item-text">分类于</span>
-              
-                <span itemprop="about" itemscope itemtype="http://schema.org/Thing"><a href="/categories/Hexo/" itemprop="url" rel="index"><span itemprop="name">Hexo</span></a></span>
-
-                
-                
-              
-            </span>
           
 
           
@@ -315,34 +299,76 @@
     <div class="post-body" itemprop="articleBody">
 
       
-        <h4 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h4><ol>
-<li><p>先讲一下自己搭博客的目的：</p>
-<p>一个是在平时学习的过程中，会去网上看一些大牛的技术文章，对自己帮助很大，就想能有自己的一个博客，能有属于自己的一片栖息之所，把平时的一些学习笔记或者生活点滴记录下来，让生活有点仪式感；另一个是，这里能逼迫自己去学东西，去记录，去思考，这很重要。</p>
+        <h3 id="浮动和BFC"><a href="#浮动和BFC" class="headerlink" title="浮动和BFC"></a>浮动和BFC</h3><p><strong>一、定义</strong></p>
+<p>BFC(Block formatting context)直译为”块级格式化上下文”。它<strong>是一个独立的渲染区域</strong>，只有<strong>Block-level box</strong>参与（在下面有解释）， 它规定了内部的Block-level Box如何布局，并且与这个区域外部毫不相干。</p>
+<p><strong>二、触发条件</strong></p>
+<ol>
+<li>根元素</li>
+<li>float的值不为none</li>
+<li>overflow的值不为visible</li>
+<li>display的值为inline-block\table-cell\table-caption</li>
+<li>position的值为absoult或者fixed</li>
+</ol>
+<p><strong>三、布局规则</strong></p>
+<ol>
+<li><p>内部的Box会在垂直方向，一个接一个地放置。</p>
 </li>
-<li><p>给自己定一个小目标：</p>
-<p>坚持每天都要学习一点东西，坚持每天写博客，始终相信滴水能穿石，技术改变人生。</p>
+<li><p>Box垂直方向的距离由margin决定。属于同一个BFC的两个相邻Box的margin会发生重叠</p>
+</li>
+<li><p>每个元素的margin box的左边， 与包含块border box的左边相接触(对于从左往右的格式化，否则相反)。即使存在浮动也是如此。</p>
+</li>
+<li><p>BFC的区域不会与float box重叠。</p>
+</li>
+<li><p>BFC就是页面上的一个隔离的独立容器，容器里面的子元素不会影响到外面的元素。反之也如此。</p>
+</li>
+<li><p>计算BFC的高度时，浮动元素也参与计算</p>
 </li>
 </ol>
-<h4 id="正文"><a href="#正文" class="headerlink" title="正文"></a>正文</h4><h5 id="一，为什么是Hexo"><a href="#一，为什么是Hexo" class="headerlink" title="一，为什么是Hexo"></a>一，为什么是Hexo</h5><p>​    因为比较容易上手，能很快的搭建起来，就如<a href="https://hexo.io/zh-cn/docs/" target="_blank" rel="noopener">官方文档</a>所说 “Hexo 是一个快速、简洁且高效的博客框架。Hexo 使用 <a href="http://daringfireball.net/projects/markdown/" target="_blank" rel="noopener">Markdown</a>（或其他渲染引擎）解析文章，在几秒内，即可利用靓丽的主题生成静态网页。”在此之前也有想过用vue+node搭建，但是太菜了，尝试用VuePress搭都搞出来很多问题，所以就退而求其次了，先用hexo其他等后面再弄！！！</p>
-<a id="more"></a>
-<h5 id="二，基本操作"><a href="#二，基本操作" class="headerlink" title="二，基本操作"></a>二，基本操作</h5><p>​    其实基本操作的话，官方文档之述备矣，这里就当总结一下吧！</p>
+<p><strong>四 BFC作用</strong></p>
 <ol>
-<li><p><strong>npm+git 安装Hexo</strong></p>
-<p>不知道什么是npm ? npm全称叫Node Package Manager，翻译过来就是运行在Node.js上面的包管理器，它是用JavaScript写的，作用就是方便我们下载代码，<a href="https://zhuanlan.zhihu.com/p/24357770" target="_blank" rel="noopener">详情</a>可以看这里。git是什么？<a href="https://www.liaoxuefeng.com/wiki/896043488029600" target="_blank" rel="noopener">看这里</a>！有了这两个工具之后就可以进行如下操作：</p>
+<li>分属于不同的BFC时可以阻止margin重叠</li>
+<li>可以包含浮动元素——清除内部浮动</li>
+<li>可以阻止元素被浮动元素覆盖</li>
+<li>自适应两栏布局</li>
+</ol>
+<p><strong>五 浮动</strong></p>
+<ol>
+<li><p>通过设置float:left\right</p>
+</li>
+<li><p>运用: </p>
 <ul>
-<li><p>安装Hexo</p>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ npm install hexo-cli -g</span><br></pre></td></tr></table></figure>
+<li>文字环绕效果</li>
+<li>多个元素内联排列</li>
+<li>自适应多列布局，比如左侧固定宽度，右侧根据父元素宽度自适应</li>
+</ul>
 </li>
-<li><p>安装 Hexo 完成后执行下列命令，Hexo 将会在指定文件夹中新建所需要的文件。</p>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">$ hexo init &lt;folder&gt;</span><br><span class="line">$ cd &lt;folder&gt;</span><br><span class="line">$ npm install</span><br></pre></td></tr></table></figure>
-</li>
-<li><p>完成后指定文件夹目录如右图：                                                   <img src="./images/%E7%9B%AE%E5%BD%95%E7%BB%93%E6%9E%84.png" alt="目录"></p>
-</li>
+<li><p>特征</p>
+<ul>
+<li>脱离文档流</li>
+<li>左/向右浮动直到遇到父元素或者别的浮动元素</li>
+<li>浮动会导致父元素高度坍塌</li>
 </ul>
 </li>
 </ol>
-<ol start="2">
-<li><strong>文档简直不要太详细</strong></li>
+<p>   <strong>六 清除浮动解决问题</strong></p>
+<ol>
+<li><h5 id="clear清除浮动"><a href="#clear清除浮动" class="headerlink" title="clear清除浮动"></a>clear清除浮动</h5><ul>
+<li><p>clear属性不允许被清除浮动的元素的左边/右边挨着浮动元素，底层原理是在被清除浮动的元素上边或者下边添加足够的清除空间</p>
+</li>
+<li><p><strong>不要在浮动元素上清除浮动</strong></p>
+</li>
+<li><figure class="highlight js"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br></pre></td><td class="code"><pre><span class="line">&lt;div <span class="class"><span class="keyword">class</span></span>=<span class="string">"outer"</span>&gt;</span><br><span class="line">    &lt;div <span class="class"><span class="keyword">class</span></span>=<span class="string">"div1"</span>&gt;<span class="number">1</span>&lt;<span class="regexp">/div&gt;</span></span><br><span class="line"><span class="regexp">    &lt;div class="div2"&gt;2&lt;/</span>div&gt;</span><br><span class="line">    &lt;div <span class="class"><span class="keyword">class</span></span>=<span class="string">"div3"</span>&gt;<span class="number">3</span>&lt;<span class="regexp">/div&gt;</span></span><br><span class="line"><span class="regexp">    &lt;div class="clear"&gt;&lt;/</span>div&gt;</span><br><span class="line">&lt;<span class="regexp">/div&gt;</span></span><br><span class="line"><span class="regexp">.clear&#123;clear:both; height: 0; line-height: 0; font-size: 0&#125;</span></span><br></pre></td></tr></table></figure>
+</li>
+<li><p>利用:after和:before来在元素内部插入两个元素块，从面达到清除浮动的效果。其实现原理类似于clear:both方法，只是区别在于:clear在html插入一个div.clear标签，而outer利用其伪类clear:after在元素内部增加一个类似于div.clear的效果</p>
+</li>
+<li><p>其中clear:both;指清除所有浮动；content: ‘.’;<br>display:block;对于FF/chrome/opera/IE8不能缺少，其中content（）可以取值也可以为空。visibility:hidden;的作用是允许浏览器渲染它，但是不显示出来，这样才能实现清楚浮动</p>
+</li>
+<li><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line"></span><br><span class="line">.outer &#123;zoom:1;&#125;    /*==for IE6/7 Maxthon2==*/</span><br><span class="line">.outer:after&#123;clear:both;content:&apos;.&apos;;display:block;width: 0;height: 0;visibility:hidden;&#125;/*==for FF/chrome/opera/IE8==*/</span><br></pre></td></tr></table></figure>
+</li>
+</ul>
+</li>
+<li><p>BFC清除浮动</p>
+</li>
 </ol>
 
     </div>
@@ -354,20 +380,15 @@
       
 
       <footer class="post-footer">
-          
-            
-          
-          <div class="post-tags">
-            
-              <a href="/tags/Hexo/" rel="tag"># Hexo</a>
-            
-          </div>
-        
 
         
 
           <div class="post-nav">
             <div class="post-nav-next post-nav-item">
+              
+                <a href="/2020/03/20/盒子模型/" rel="next" title="">
+                  <i class="fa fa-chevron-left"></i> 
+                </a>
               
             </div>
 
@@ -375,8 +396,8 @@
 
             <div class="post-nav-prev post-nav-item">
               
-                <a href="/2019/09/09/Vue生命周期/" rel="prev" title="Vue生命周期">
-                  Vue生命周期 <i class="fa fa-chevron-right"></i>
+                <a href="/2020/03/20/各种布局/" rel="prev" title="">
+                   <i class="fa fa-chevron-right"></i>
                 </a>
               
             </div>
@@ -426,7 +447,7 @@
 
       <!--noindex-->
       <div class="post-toc-wrap sidebar-panel">
-          <div class="post-toc motion-element"><ol class="nav"><li class="nav-item nav-level-4"><a class="nav-link" href="#前言"><span class="nav-number">1.</span> <span class="nav-text">前言</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#正文"><span class="nav-number">2.</span> <span class="nav-text">正文</span></a><ol class="nav-child"><li class="nav-item nav-level-5"><a class="nav-link" href="#一，为什么是Hexo"><span class="nav-number">2.1.</span> <span class="nav-text">一，为什么是Hexo</span></a></li><li class="nav-item nav-level-5"><a class="nav-link" href="#二，基本操作"><span class="nav-number">2.2.</span> <span class="nav-text">二，基本操作</span></a></li></ol></li></ol></div>
+          <div class="post-toc motion-element"><ol class="nav"><li class="nav-item nav-level-3"><a class="nav-link" href="#浮动和BFC"><span class="nav-number">1.</span> <span class="nav-text">浮动和BFC</span></a><ol class="nav-child"><li class="nav-item nav-level-5"><a class="nav-link" href="#clear清除浮动"><span class="nav-number">1.0.1.</span> <span class="nav-text">clear清除浮动</span></a></li></ol></li></ol></li></ol></div>
         
       </div>
       <!--/noindex-->
@@ -444,7 +465,7 @@
         
           <a href="/archives/">
         
-          <span class="site-state-item-count">18</span>
+          <span class="site-state-item-count">7</span>
           <span class="site-state-item-name">日志</span>
         </a>
       </div>
@@ -463,13 +484,7 @@
         
           
         
-          
-        
-          
-        
-          
-        
-        <span class="site-state-item-count">5</span>
+        <span class="site-state-item-count">2</span>
         <span class="site-state-item-name">分类</span>
         </a>
       </div>
@@ -488,13 +503,7 @@
         
           
         
-          
-        
-          
-        
-          
-        
-        <span class="site-state-item-count">5</span>
+        <span class="site-state-item-count">2</span>
         <span class="site-state-item-name">标签</span>
         </a>
       </div>
